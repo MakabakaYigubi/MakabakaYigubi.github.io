@@ -1,0 +1,5 @@
+title: 我的主页
+description: 记录与作品
+remote_theme: pages-themes/minimal # 或其他官方主题
+plugins:
+  - jekyll-remote-theme
