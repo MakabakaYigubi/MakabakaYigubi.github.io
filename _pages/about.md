@@ -8,7 +8,7 @@ social: true
 
 profile:
   align: right
-  image: avatar.svg
+  image: 4533cfaf72e7fee9a0873b6ad469fdda.heic
   image_circular: false
   more_info: >
     <p>your.email@example.com</p>
