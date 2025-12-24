@@ -14,11 +14,9 @@ profile:
     <p>your.email@example.com</p>
 ---
 
-Hi! I’m **Your Name**.
+Hi! I’m **MakabakaYigubi**.
 
-This site uses the same open-source theme stack as `sophtang.github.io` (Jekyll + al-folio), but with **placeholder content**.
-
-Replace this with your bio, affiliations, and research interests.
+This site uses for MakabakaYigubi.
 
 ## Updates
 The updates section below is populated from `_news/`.
