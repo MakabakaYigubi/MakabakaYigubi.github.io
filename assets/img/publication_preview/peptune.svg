@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="360" viewBox="0 0 600 360" role="img" aria-label="Publication preview">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="1" stop-color="#f97316"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="600" height="360" rx="28" fill="url(#g)"/>
+  <g fill="none" stroke="rgba(255,255,255,0.45)" stroke-width="2">
+    <path d="M80 220 C140 140, 200 280, 260 200 S380 120, 460 200 S520 260, 560 170"/>
+    <path d="M80 240 C160 120, 220 300, 300 190 S420 140, 560 220"/>
+  </g>
+  <text x="40" y="70"
+        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
+        font-size="22" font-weight="700" fill="rgba(255,255,255,0.92)">
+    PepTune: Multi-Objective Guided Diffusion (example)
+  </text>
+  <text x="40" y="104"
+        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
+        font-size="16" font-weight="600" fill="rgba(255,255,255,0.72)">
+    ICML - 2025
+  </text>
+</svg>
+
+

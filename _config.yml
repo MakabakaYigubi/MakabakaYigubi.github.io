@@ -1,0 +1,126 @@
+# Minimal al-folio config to match sophtang.github.io look/IA
+# (Theme is open-source; content here is placeholder.)
+
+remote_theme: alshedivat/al-folio
+
+title: blank
+first_name: Your
+last_name: Name
+email: your.email@example.com
+description: >
+  Researcher in generative ML for scientific discovery.
+keywords: jekyll, jekyll-theme, academic-website, portfolio-website
+lang: en
+
+# Socials (placeholders — replace with yours)
+linkedin_username: your-linkedin
+scholar_userid: your-scholar-id
+x_username: your_x_handle
+
+# If you deploy to USERNAME.github.io, keep baseurl empty.
+url: https://USERNAME.github.io
+baseurl: ""
+
+navbar_fixed: true
+footer_fixed: true
+back_to_top: true
+
+# Dimensions (used by theme SCSS)
+max_width: 930px
+
+# Optional: enable site search like the original
+search_enabled: true
+socials_in_search: true
+bib_search: true
+
+# Publications (match sophtang-style thumbnails/buttons)
+enable_publication_thumbnails: true
+
+collections:
+  news:
+    defaults:
+      layout: post
+    output: true
+    permalink: /:collection/:title/
+
+announcements:
+  enabled: true
+  scrollable: true
+  limit: 5
+
+include: ["_pages"]
+
+plugins:
+  - jekyll-email-protect
+  - jekyll-feed
+  - jekyll-paginate-v2
+  - jekyll/scholar
+  - jekyll-sitemap
+  - jekyll-toc
+
+scholar:
+  last_name: [Name]
+  first_name: [Your]
+  style: apa
+  locale: en
+  source: /_bibliography/
+  bibliography: papers.bib
+  bibliography_template: bib
+  bibtex_filters: [latex, smallcaps, superscript]
+  replace_strings: true
+  join_strings: true
+  details_dir: bibliography
+  details_link: Details
+  query: "@*"
+  group_by: year
+  group_order: descending
+
+third_party_libraries:
+  google_fonts:
+    url:
+      fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
+  jquery:
+    integrity:
+      js: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    url:
+      js: "https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"
+    version: "3.6.0"
+  mdb:
+    integrity:
+      css: "sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw="
+      js: "sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA="
+    url:
+      css: "https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css"
+      js: "https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js"
+    version: "4.20.0"
+  masonry:
+    integrity:
+      js: "sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI="
+    url:
+      js: "https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+    version: "4.2.2"
+  imagesloaded:
+    integrity:
+      js: "sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc="
+    url:
+      js: "https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js"
+    version: "5.0.0"
+  medium_zoom:
+    integrity:
+      js: "sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc="
+    url:
+      js: "https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js"
+    version: "1.1.0"
+  polyfill:
+    url:
+      js: "https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"
+    version: "3"
+  mathjax:
+    integrity:
+      js: "sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="
+    url:
+      js: "https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js"
+    version: "3.2.2"
+
+
+
