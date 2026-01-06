@@ -14,7 +14,7 @@ profile:
     <p>your.email@example.com</p>
 ---
 
-Hi! I’m **MakabakaYigubi**.
+Hi! I’m **MYigubigu**.
 
 This site uses for MakabakaYigubi.
 
